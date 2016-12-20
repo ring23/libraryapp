@@ -27,7 +27,7 @@ export default Ember.Controller.extend({
           this.set('responseMessage', responseMessage);
           this.set('emailAddress', '');
           this.set('message', '');
-        })
+        });
 
       }
     }
