@@ -15,7 +15,7 @@ export default Ember.Route.extend({
 
   renderTempalte() {
     this.render('libraries/form')
-  }
+  },
 
   actions: {
 
